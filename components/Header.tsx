@@ -38,6 +38,7 @@ const links = [
   { href: '/about', label: 'About' },
   { href: '/projects', label: 'Projects' },
   { href: '/achievements', label: 'Achievements' },
+  { href: '/evidence', label: 'Evidence' },
   { href: '/contact', label: 'Contact' },
 ]
 

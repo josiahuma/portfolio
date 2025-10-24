@@ -4,7 +4,8 @@ import Image from "next/image";
 import Container from "../../components/Container";
 import Section from "../../components/Section";
 import { ACHIEVEMENTS } from "../../data/achievements";
-import { Award, Medal, Star } from "lucide-react";
+import { CERTIFICATIONS } from "../../data/certifications";
+import { Award, Medal, Star, GraduationCap } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function AchievementsPage() {
@@ -25,7 +26,6 @@ export default function AchievementsPage() {
       {/* ===== Achievements Section ===== */}
       <Container>
         <Section>
-          {/* Evidence note directly under subtitle */}
           <p className="mt-4 mb-10 text-gray-600 dark:text-gray-400 text-sm max-w-2xl">
             Full evidence and supporting documentation are available upon
             request and accessible on the{" "}
@@ -38,7 +38,7 @@ export default function AchievementsPage() {
             .
           </p>
 
-          {/* MAIN GRID - 65% achievements / 35% image */}
+          {/* MAIN GRID */}
           <div className="grid lg:grid-cols-[2fr_1fr] gap-12 items-center">
             {/* LEFT SIDE - Achievements */}
             <div className="grid sm:grid-cols-2 gap-6">
@@ -94,6 +94,59 @@ export default function AchievementsPage() {
           </div>
         </Section>
       </Container>
+
+      {/* ===== Certifications Section ===== */}
+      <section className="py-20 bg-gradient-to-b from-gray-100 to-white dark:from-gray-950 dark:to-gray-900">
+        <Container>
+          <h2 className="text-3xl font-bold mb-10 flex items-center gap-3">
+            <GraduationCap className="text-orange-500 w-7 h-7" />
+            Certifications
+          </h2>
+
+          <div className="grid gap-6">
+            {CERTIFICATIONS.map((cert, i) => (
+              <motion.a
+                key={cert.title}
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: i * 0.1 }}
+                className="flex items-center gap-6 p-5 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300"
+              >
+                <div className="relative w-16 h-16 flex-shrink-0">
+                  <Image
+                    src={cert.logo}
+                    alt={cert.title}
+                    fill
+                    className="object-contain rounded-md"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    {cert.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                    View Certificate Evidence
+                  </p>
+                </div>
+              </motion.a>
+            ))}
+          </div>
+
+          <div className="mt-10 text-center">
+            <a
+              href="https://www.credly.com/users/josiahuma"
+              target="_blank"
+              className="inline-block text-orange-600 hover:underline font-medium"
+            >
+              View full certification profile on Credly →
+            </a>
+          </div>
+        </Container>
+      </section>
     </main>
   );
 }

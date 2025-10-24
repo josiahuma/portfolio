@@ -48,7 +48,7 @@ stack: ['Laravel 12', 'Blade', 'MySQL'],
 image: '/lms.png',
 links: {
 github: 'https://github.com/josiahuma/lms',
-demo: '#',
+demo: 'https://lms.josiahuma.site/',
 },
 },
 {
