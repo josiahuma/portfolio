@@ -26,7 +26,7 @@ stack: ['Next.js', 'Supabase', 'Tailwind'],
 image: '/lyfchat.png',
 links: {
 github: 'https://github.com/josiahuma/lyfchat',
-demo: 'https://www.lyfchat.co.uk',
+demo: 'https://lyfchat.vercel.app/',
 },
 },
 {
