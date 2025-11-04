@@ -37,7 +37,7 @@ stack: ['Laravel 12', 'Blade', 'MySQL'],
 image: '/freshcrm.png',
 links: {
 github: 'https://github.com/josiahuma/fresh-crm',
-demo: 'https://crm.freshfountain.org/',
+demo: 'https://crm.josiahuma.site/',
 },
 },
 {
@@ -59,6 +59,27 @@ stack: ['Python', 'Pandas', 'SQL'],
 image: '/data-eng.png',
 links: {
 github: 'https://github.com/josiahuma/Data-Eng-Proj',
+},
+},
+{
+title: 'Health Buddy Chatbot',
+description:
+'An AI-powered health assistant chatbot that provides users with personalized health advice, symptom checking, and wellness tips through natural language processing.',
+stack: ['Next.js', 'Supabase', 'Tailwind', 'OpenAI'],
+image: '/health-buddy.png',
+links: {
+github: 'https://github.com/josiahuma/health-buddy.git',
+demo: 'https://health-buddy-ruby.vercel.app/',
+},
+},
+{
+title: 'Give For Me',
+description:
+'A charitable donation platform that simplifies the process of giving to multiple causes, allowing users to set up recurring donations and track their impact over time.',
+stack: ['Wordpress', 'MySQL', 'PHP', 'CSS'],
+image: '/giveforme.png',
+links: {
+demo: 'https://give.josiahuma.site/',
 },
 },
 ]

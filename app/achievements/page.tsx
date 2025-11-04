@@ -138,7 +138,7 @@ export default function AchievementsPage() {
 
           <div className="mt-10 text-center">
             <a
-              href="https://www.credly.com/users/josiahuma"
+              href="https://www.credly.com/users/josiah-uma"
               target="_blank"
               className="inline-block text-orange-600 hover:underline font-medium"
             >
