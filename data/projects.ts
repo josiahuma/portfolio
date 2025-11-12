@@ -19,6 +19,17 @@ links: {
 }, // add when public
 },
 {
+title: 'Eventib Scanner App',
+description:
+'A mobile app for event organizers to scan and validate tickets using device cameras, integrating with the Eventib platform for real-time ticket verification.',
+stack: ['Expo', 'React Native', 'EAS'],
+image: '/eventib-scanner.png',
+links: {
+    github: 'https://github.com/josiahuma/eventib-scanner',
+    demo: 'https://play.google.com/store/apps/details?id=com.eventib.eventibscanner&pcampaignid=web_share',
+}
+},
+{
 title: 'Lyfchat',
 description:
 'A community platform that connects users by shared interests and goals rather than appearances.',
@@ -32,7 +43,7 @@ demo: 'https://lyfchat.vercel.app/',
 {
 title: 'Fresh CRM',
 description:
-'An intuitive open source CRM system designed for small businesses to manage customer relationships and sales pipelines effectively.',
+'A cloud-based management system that enables small organisations to manage communication, attendance, and finances efficiently.',
 stack: ['Laravel 12', 'Blade', 'MySQL'],
 image: '/freshcrm.png',
 links: {
@@ -41,7 +52,7 @@ demo: 'https://crm.josiahuma.site/',
 },
 },
 {
-title: 'Learning Management System',
+title: 'LearnTree LMS',
 description:
 'A full-featured LMS for creating, managing, and delivering online courses with user progress tracking and assessments.',
 stack: ['Laravel 12', 'Blade', 'MySQL'],
@@ -69,13 +80,13 @@ stack: ['Next.js', 'Supabase', 'Tailwind', 'OpenAI'],
 image: '/health-buddy.png',
 links: {
 github: 'https://github.com/josiahuma/health-buddy.git',
-demo: 'https://health-buddy-ruby.vercel.app/',
+demo: 'https://health-buddy-beta.vercel.app/',
 },
 },
 {
 title: 'Give For Me',
 description:
-'A charitable donation platform that simplifies the process of giving to multiple causes, allowing users to set up recurring donations and track their impact over time.',
+'A charitable donation platform that simplifies the process of giving to multiple causes, integrating e-commerce functionality to giving, letting users purchase items to be donated to charities.',
 stack: ['Wordpress', 'MySQL', 'PHP', 'CSS'],
 image: '/giveforme.png',
 links: {

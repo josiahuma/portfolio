@@ -35,10 +35,10 @@ const X = (props: SVGProps<SVGSVGElement>) => (
 
 const links = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
+  { href: '/about', label: 'About & Resume' },
   { href: '/projects', label: 'Projects' },
   { href: '/achievements', label: 'Achievements' },
-  { href: '/evidence', label: 'Evidence' },
+  { href: '/evidence', label: 'Evidence Hub' },
   { href: '/contact', label: 'Contact' },
 ]
 
