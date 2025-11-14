@@ -37,6 +37,7 @@ const links = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About & Resume' },
   { href: '/projects', label: 'Projects' },
+  { href: '/volunteer', label: 'Volunteer Work' },
   { href: '/achievements', label: 'Achievements' },
   { href: '/evidence', label: 'Evidence Hub' },
   { href: '/contact', label: 'Contact' },
@@ -76,7 +77,7 @@ export default function Header() {
           ))}
           <li>
             <a
-              href="/Josiah_Uma_CV.pdf"
+              href="/Josiah_Uma_Global_Talent_CV.pdf"
               download
               className="ml-3 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white font-semibold text-sm rounded-lg transition"
             >
@@ -121,7 +122,7 @@ export default function Header() {
             ))}
             <li>
               <a
-                href="/Josiah_Uma_CV.pdf"
+                href="/Josiah_Uma_Global_Talent_CV.pdf"
                 download
                 className="block text-center mt-3 px-4 py-2 bg-orange-600 hover:bg-orange-700 text-white font-semibold text-sm rounded-lg transition"
               >

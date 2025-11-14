@@ -40,11 +40,11 @@ export default function HomePage() {
           <p className="text-gray-400">Staff Served</p>
         </div>
         <div>
-          <p className="text-4xl font-bold text-orange-500">10+</p>
+          <p className="text-4xl font-bold text-orange-500">15+</p>
           <p className="text-gray-400">Open-Source Repos</p>
         </div>
         <div>
-          <p className="text-4xl font-bold text-orange-500">5+</p>
+          <p className="text-4xl font-bold text-orange-500">7+</p>
           <p className="text-gray-400">Years in Tech</p>
         </div>
       </div>
